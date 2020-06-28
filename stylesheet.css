@@ -1,4 +1,8 @@
-
+a {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
 .banner {
 	padding-left: 80px;
 
@@ -19,15 +23,12 @@
 	background:rgba(0,0,0,0.5);
 	padding: 4px 48px;   
 }
+
 .poster{
-	min-height: 300px;
-	max-height: 400px;
-	width: auto;
+	max-width: 450px;
+	min-width: 300px;
+	height:auto; 
 	padding: 10px;
-}
-.poster:hover {
-	transition: 0.8s;
-	transform: scale(1.5);
 }
 
 p {
